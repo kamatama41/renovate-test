@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  "reviewers": [
+    "kamatama41"
+  ],
   "postUpdateOptions": [
     "gomodTidy"
   ],
