@@ -12,7 +12,7 @@
     {
       "packagePatterns": [
         "^github.com/aws/aws-sdk-go",
-        "^github.com/kamatama41/tenhou-go"
+        "^google.golang.org/grpc"
       ],
       "groupName": "automerge",
       "minor": {
