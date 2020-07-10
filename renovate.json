@@ -10,8 +10,9 @@
       "packagePatterns": [
         "^github.com/aws/aws-sdk-go"
       ],
-      "updateTypes": ["patch"],
-      "automerge": true
+      "patch": {
+        "automerge": true
+      }
     }
   ]
 }
