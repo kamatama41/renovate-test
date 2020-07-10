@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "^github.com/aws/aws-sdk-go"
+      ],
+      "updateTypes": ["patch"],
+      "automerge": true
+    }
+  ]
+}
