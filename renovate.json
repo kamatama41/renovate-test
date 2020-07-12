@@ -11,8 +11,7 @@
   "packageRules": [
     {
       "packagePatterns": [
-        "^github.com/aws/aws-sdk-go",
-        "^google.golang.org/grpc"
+        "^github.com/aws/aws-sdk-go"
       ],
       "minor": {
         "automerge": true
