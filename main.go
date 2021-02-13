@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// test
 	sess := session.Must(session.NewSession(&aws.Config{
 		Region: aws.String("ap-northeast-1"),
 	}))
