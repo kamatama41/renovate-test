@@ -8,20 +8,10 @@
   "postUpdateOptions": [
     "gomodTidy"
   ],
-  "major": {
-    "automerge": true
-  },
-  "minor": {
-    "automerge": true
-  },
-  "patch": {
-    "automerge": true
-  },
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "^github.com/aws/aws-sdk-go"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ]
 }
