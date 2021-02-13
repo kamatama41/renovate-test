@@ -10,8 +10,13 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "matchPackagePatterns": [
+        "^github.com/aws/aws-sdk-go"
+      ],
+      "separateMinorPatch": true,
+      "patch": {
+        "automerge": true
+      }
     }
   ]
 }
