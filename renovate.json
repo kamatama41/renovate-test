@@ -2,19 +2,14 @@
   "extends": [
     "config:base"
   ],
-  "reviewers": [
-    "kamatama41"
-  ],
   "postUpdateOptions": [
     "gomodTidy"
   ],
   "packageRules": [
     {
-      "matchPackageNames": [
-        "github.com/aws/aws-sdk-go"
+      "matchPackagePatterns": [
+        "^github.com/aws/aws-sdk-go"
       ],
-      "separateMinorPatch": true,
-      "matchUpdateTypes": ["patch"],
       "automerge": true
     }
   ]
