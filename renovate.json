@@ -8,6 +8,9 @@
   "postUpdateOptions": [
     "gomodTidy"
   ],
+  "major": {
+    "automerge": true
+  },
   "minor": {
     "automerge": true
   },
