@@ -15,7 +15,7 @@
       ],
       "separateMinorPatch": true,
       "matchUpdateTypes": ["patch"],
-      "automerge": true,
+      "automerge": true
     }
   ]
 }
