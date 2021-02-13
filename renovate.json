@@ -11,8 +11,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "^github.com/aws/aws-sdk-go",
-        "^github.com/golang/protobuf"
+        "^github.com/aws/aws-sdk-go"
       ],
       "minor": {
         "automerge": true
