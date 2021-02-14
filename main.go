@@ -5,6 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/golang/protobuf/proto"
+	"golang.org/x/lint"
 )
 
 func main() {
@@ -21,4 +22,5 @@ func main() {
 		println(*b.Name)
 	}
 	println(*proto.Bool(true))
+	println((&lint.Problem{}).String())
 }

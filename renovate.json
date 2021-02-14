@@ -8,7 +8,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "aws/aws-sdk-go"
+        "^github.com/aws/aws-sdk-go",
+        "^golang.org/x/lint"
       ],
       "automerge": true
     }
