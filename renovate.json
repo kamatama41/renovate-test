@@ -11,7 +11,10 @@
         "^github.com/aws/aws-sdk-go",
         "^golang.org/x/lint"
       ],
-      "automerge": true
+      "separateMinorPatch": true,
+      "patch": {
+        "automerge": true
+      }
     }
   ]
 }
